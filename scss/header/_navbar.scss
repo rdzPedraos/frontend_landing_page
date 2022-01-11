@@ -1,0 +1,31 @@
+//Navbar:
+.menu{
+    display:block;
+    padding: 50px 0;
+
+    ul{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin:0 10px;
+
+        li{
+            padding: 10px;
+
+            //For the align of the menu in inline-block:
+            /* vertical-align: middle; */
+
+            a{
+                color: rgb( $text-color );
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                    color: rgb( $text-hover-color );
+                }
+            }
+
+            &#logo{ margin-right: auto;}
+        }
+    } 
+}

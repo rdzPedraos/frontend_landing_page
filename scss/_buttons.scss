@@ -1,0 +1,14 @@
+button{
+    background-color: rgb( $btn-bg );
+    border: 0;
+    border-radius: 3px;
+    color: rgb( $btn-color );
+    cursor: pointer;
+    padding: 10px;
+    transition: .2s background ease;
+
+    &:hover{
+        background-color: rgb( $btn-hover-bg );
+        transition: .2s ease;
+    }
+}

@@ -1,0 +1,14 @@
+header{
+    //bg must be image.
+    background: $header-bg;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    
+    height: 100vh;
+
+    color: rgb($text-color);
+
+    @import '_navbar.scss';
+    @import '_body.scss';
+}

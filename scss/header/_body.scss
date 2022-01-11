@@ -1,0 +1,29 @@
+//Body header:
+main{
+    display: flex;
+    align-items: center;
+
+    max-width: 1400px;
+    margin: 0 auto;
+
+    div{
+        vertical-align: middle;
+
+        &.text{
+            padding:0 20px;
+            width: 100%;
+            h1{ font-size: 80px; }
+            p{ font-size: 24px; padding: 20px 0;}
+            a{ 
+                color: rgb($text-color);
+                &:hover{color: rgb($text-hover-color)}
+            }
+        }
+
+        button{
+            padding: 20px 25px;
+            font-size: 24px;
+            margin: 40px 0;
+        }
+    }
+}

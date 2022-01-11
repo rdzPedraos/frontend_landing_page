@@ -1,0 +1,22 @@
+.layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1280px;
+    margin: 250px auto;
+    padding: 0 25px;
+
+    div{
+        width: 45%;
+        
+        &.text{
+            h3{ font-size: 48px; padding: 25px 0;}
+            p { font-size: 25px 0; line-height:32px;}
+        }
+        &.image {
+            overflow: hidden;
+            img{ object-fit: contain; }
+        }
+    }
+}

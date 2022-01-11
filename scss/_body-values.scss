@@ -1,0 +1,17 @@
+//Default values
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+footer{
+    padding: 50px 20px;
+    background-color:#000;
+    text-align: center;
+    color: #fff;
+}

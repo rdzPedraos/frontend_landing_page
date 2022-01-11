@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  padding: 50px 20px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  background-color: #24d9e6;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.2s background ease;
+}
+button:hover {
+  background-color: #14929b;
+  transition: 0.2s ease;
+}
+
+header {
+  background: url(../img/bradcam.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  height: 100vh;
+  color: white;
+}
+header .menu {
+  display: block;
+  padding: 50px 0;
+}
+header .menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 10px;
+}
+header .menu ul li {
+  padding: 10px;
+  /* vertical-align: middle; */
+}
+header .menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+header .menu ul li a:hover {
+  text-decoration: underline;
+  color: #c7dcef;
+}
+header .menu ul li#logo {
+  margin-right: auto;
+}
+header main {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header main div {
+  vertical-align: middle;
+}
+header main div.text {
+  padding: 0 20px;
+  width: 100%;
+}
+header main div.text h1 {
+  font-size: 80px;
+}
+header main div.text p {
+  font-size: 24px;
+  padding: 20px 0;
+}
+header main div.text a {
+  color: white;
+}
+header main div.text a:hover {
+  color: #c7dcef;
+}
+header main div button {
+  padding: 20px 25px;
+  font-size: 24px;
+  margin: 40px 0;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 250px auto;
+  padding: 0 25px;
+}
+.layout div {
+  width: 45%;
+}
+.layout div.text h3 {
+  font-size: 48px;
+  padding: 25px 0;
+}
+.layout div.text p {
+  font-size: 25px 0;
+  line-height: 32px;
+}
+.layout div.image {
+  overflow: hidden;
+}
+.layout div.image img {
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=main.css.map */
