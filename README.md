@@ -2,5 +2,5 @@
 Retomando las bases css con sass.
 Estructura simple frontend
 
-#####Screenshots
+#### Screenshots
 ![](https://ibb.co/HgQp0wh)
